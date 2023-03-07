@@ -7,7 +7,11 @@ package vehiculo;
  */
 public class Main {
     
-      public static void main(String[] args) {
+    /**
+     *
+     * @param args
+     */
+    public static void main(String[] args) {
         VehiculoKRJC2223 miVehiculoKRJC2223;
         int stockActual;
         
@@ -17,7 +21,12 @@ public class Main {
         System.out.println("El stock actual es"+ stockActual );
     }
 
+    /**
+     * @param miVehiculoKRJC2223
+     * @param cantidad 
+     */
     private static void operativaVehiculosKRJC2223(VehiculoKRJC2223 miVehiculoKRJC2223, int cantidad) {
+        
         try
         {
             System.out.println("Venta de Vehiculos");
